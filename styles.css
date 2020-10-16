@@ -1,29 +1,35 @@
 .progress {
     margin: 10px;
 }
-
+/* 
+play that funky music...
+*/
+#itcc_logo {
+    width: 100px;
+    height: auto;
+}
 .navbar-custom {
-    background-color:rgba(68, 203, 221, 1);
+    background-color:rgb(34, 34, 34);
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(8, 14, 13,);
+    color: rgb(252, 252, 252);
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: black;
+    color: rgb(187, 187, 187);
 }
 
 /* change the color/style of hovered links */
 .navbar-custom .navbar-nav .nav-link:hover {
-    color: lightblue;
-    text-decoration: underline;
+    color: rgb(201, 201, 201);
+    text-shadow: 0 0 10px rgb(223, 223, 223);
 }
 /* change the color/style of active links */
 .navbar-custom .navbar-nav .nav-link.active {
-    color: darkblue;
-    text-decoration: underline;
+    color: rgb(206, 206, 206);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 a:active{
@@ -33,6 +39,6 @@ a:active{
 
 /* change hamburger icon color */
 .navbar-custom .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256,256,256, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   
 }
