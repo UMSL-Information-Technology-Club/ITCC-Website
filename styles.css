@@ -8,9 +8,25 @@ play that funky music...
     width: 100px;
     height: auto;
 }
+
+#nerds {
+    max-width: 100%;
+    height: auto;
+}
+
+#nerd_jumbotron {
+    margin-top: 10px;
+}
+
 .navbar-custom {
     background-color:rgb(34, 34, 34);
+    padding-bottom: 0;
 }
+
+.container-fluid {
+    padding-top: 10px;
+}
+
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -23,12 +39,12 @@ play that funky music...
 
 /* change the color/style of hovered links */
 .navbar-custom .navbar-nav .nav-link:hover {
-    color: rgb(201, 201, 201);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 10px rgb(223, 223, 223);
 }
 /* change the color/style of active links */
 .navbar-custom .navbar-nav .nav-link.active {
-    color: rgb(206, 206, 206);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
@@ -38,7 +54,12 @@ a:active{
 }
 
 /* change hamburger icon color */
+
 .navbar-custom .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256,256,256, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   
+}
+
+p {
+    font-size: larger;
 }
