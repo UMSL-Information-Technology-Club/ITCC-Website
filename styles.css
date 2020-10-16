@@ -1,3 +1,38 @@
 .progress {
     margin: 10px;
 }
+
+.navbar-custom {
+    background-color:rgba(68, 203, 221, 1);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(8, 14, 13,);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+
+/* change the color/style of hovered links */
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+/* change the color/style of active links */
+.navbar-custom .navbar-nav .nav-link.active {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+/* change hamburger icon color */
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  
+}
