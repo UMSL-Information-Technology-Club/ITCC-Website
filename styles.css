@@ -1,3 +1,7 @@
+
+body{
+    background-color: #e9ecef;
+}
 .navbar {
     background: #fff;
     
@@ -8,6 +12,8 @@
     display: block;
     font-size: 1.2rem;
     transition: transform .2s;
+    /* color: #981e32; */
+    font-weight: 1000;
 }
 .navbar a:hover{
     font-weight: bold;
@@ -18,13 +24,14 @@
     height: 100px;
     width: 100px;
 }
-/* .jumbotron{
-    background-image: url(https://image.freepik.com/free-vector/abstract-technology-binary-code-background_6735-500.jpg);
-} */
+.jumbotron{
+    background-image: url(https://ext-marketing.com/wp-content/uploads/2017/11/AdobeStock_85142566.jpg);
+
+}
 
 .jumbotron-div {
     text-align: center;
-    /* color: white; */
+    color: white;
 }
 
 
