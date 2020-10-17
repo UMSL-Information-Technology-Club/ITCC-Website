@@ -1,5 +1,6 @@
 .navbar {
     background: #fff;
+    
     box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
     position: relative;
 }
@@ -7,30 +8,28 @@
     display: block;
     font-size: 1.2rem;
     transition: transform .2s;
-
-
 }
 .navbar a:hover{
-    /* text-decoration: underline; */
     font-weight: bold;
     transform: scale(1.10);
-    
 }
 
 .itcc-logo{
     height: 100px;
     width: 100px;
 }
+/* .jumbotron{
+    background-image: url(https://image.freepik.com/free-vector/abstract-technology-binary-code-background_6735-500.jpg);
+} */
 
 .jumbotron-div {
     text-align: center;
-
-    
+    /* color: white; */
 }
 
 
 /* .umsl-img{
-    
+
 } */
 
 .itcc-h1{
@@ -39,3 +38,7 @@
     font-family: 'Orbitron', sans-serif;
     /* font-weight: 200; */
 }
+/* body{
+    background-image: url(https://image.freepik.com/free-vector/abstract-technology-binary-code-background_6735-500.jpg);
+    /* background-repeat: no-repeat; */
+} */
