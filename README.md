@@ -1,3 +1,7 @@
-# itcc-website
+# itcc-website, Alex's version.
+## This version may or may or may not be merged into main.
+###### we'll see
 
-Making a website for the ITCC club
+*Viewer discretion is advised.*
+
+
