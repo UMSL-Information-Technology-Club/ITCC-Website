@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -10,7 +10,7 @@ body{
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgb(187, 187, 187);
+    color: rgb(185, 185, 185);
 }
 
 /* change the color/style of hovered links */
@@ -25,7 +25,7 @@ body{
 }
 
 .navbar {
-    background: rgb(34, 34, 34);
+    background: rgb(20, 20, 20);
     
     box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
     position: relative;
@@ -45,8 +45,10 @@ body{
 }
 
 .itcc-logo{
-    height: 100px;
-    width: 100px;
+    /* Do NOT touch this, I have it working perfectly. */
+    /* Also don't touch my freshly windexed white sneakers, I'm taking your mom to Applebee's tonight */
+    height: 40px;
+    width: auto;
 }
 .jumbotron {
     background-image: url(https://ext-marketing.com/wp-content/uploads/2017/11/AdobeStock_85142566.jpg);
@@ -59,7 +61,7 @@ body{
 
 .container-fluid {
     padding-top: 10px;
-    background-color: rgb(187, 187, 187)
+    background-color: rgb(255, 255, 255)
 }
 
 
@@ -68,7 +70,7 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(219, 219, 219);
     color: white;
     text-align: left;
     margin-bottom: 0px;
@@ -80,12 +82,21 @@ body{
     transition: transform .2s;
     /* color: #981e32; */
     font-weight: 1000;
-    color: rgb(187, 187, 187);
+    color: rgb(43, 43, 43);
     /*text-shadow: 0 0 10px rgb(223, 223, 223); */
   }
 
   .footer a:hover{
       
-    color: rgb(255, 255, 255);
+    color: rgb(119, 119, 119);
     text-shadow: 0 0 10px rgb(223, 223, 223);
   }
+
+#umsl-img {
+    width: 30%;
+    height: 30%;
+    max-width: 30%;
+    max-height: 30%;
+    /* I kinda don't want this to scale so massively on a maximized browser window */
+    /* Have Josh look at this one :( */
+}
