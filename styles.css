@@ -32,7 +32,7 @@ body{
 }
 .navbar a{
     display: block;
-    font-size: 1.2rem;
+    font-size: auto; /* very nice */
     transition: transform .2s;
     /* color: #981e32; */
     font-weight: 1000;
@@ -65,7 +65,8 @@ body{
 
 .container-fluid {
     padding-top: 10px;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
 }
 
 .jumbotron {
