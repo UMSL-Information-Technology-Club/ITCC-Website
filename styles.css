@@ -108,3 +108,15 @@ body{
     max-width: 15%;
     /* wrench it in there real good... */
 }
+
+
+.announcement{
+    width: 50%;
+    padding: 5px;
+    font-size: 25px;
+    font-style: bold;
+    font-family: fantasy;
+    text-align: center;
+
+  }
+
