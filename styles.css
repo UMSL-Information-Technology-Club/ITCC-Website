@@ -69,6 +69,11 @@ body{
     font-size: larger;
 }
 
+.container-fluid-special{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
 .jumbotron {
     padding-top: 3px;
     padding-bottom: 3px;
