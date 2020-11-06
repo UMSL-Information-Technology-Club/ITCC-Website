@@ -16,6 +16,7 @@ request.onload = function () {
         statusHTML += '<tr>';
         statusHTML += '<td>' + status.id + '</td>';
         statusHTML += '<td>' + status.name + '</td>';
+        statusHTML += '<td>' + status.description + '</td>';
         statusHTML += '<td>' + status.html_url + '</td>';
         statusHTML += '<td>' + status.language + '</td>';
         statusHTML += '</tr>';
