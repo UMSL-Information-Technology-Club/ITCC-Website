@@ -3,7 +3,18 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+.table-info, .table-info>td, .table-info>th {
+    background-color: rgb(20,20,20);
+}
 
+.table-info tbody+tbody, .table-info td, .table-info th, .table-info thead th {
+    border-color: rgb(10,10,10)
+}
+
+.table-info {
+    color: #dedede;
+    /* dedede needs a monster to clobber that there kirby */
+}
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgb(252, 252, 252);
@@ -125,3 +136,6 @@ body{
 
   }
 
+th {
+    size: auto;
+}
