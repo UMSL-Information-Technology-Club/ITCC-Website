@@ -9,6 +9,7 @@ body{
 
 .table-info tbody+tbody, .table-info td, .table-info th, .table-info thead th {
     border-color: rgb(10,10,10)
+    
 }
 
 .table-info {
@@ -134,7 +135,7 @@ body{
     font-family: fantasy;
     text-align: center;
 
-  }
+  } 
 
 th {
     size: auto;
