@@ -1,6 +1,10 @@
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(assets/softbackground.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .table-info, .table-info>td, .table-info>th {
