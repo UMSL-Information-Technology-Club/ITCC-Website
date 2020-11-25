@@ -5,6 +5,20 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+#wheresthebeef {
+    padding: 20px;
+}
+
+#bigchungus2 {
+    text-align: center;
+}
+
+.img-fluid {
+    height: auto;
+    width: auto;
 }
 
 .table-info, .table-info>td, .table-info>th {
@@ -143,4 +157,22 @@ body{
 
 th {
     size: auto;
+}
+
+.column {
+    float: left;
+    width: 50%; /* Feel free to adjust this if necessary. */
+    padding: 5px;
+}
+
+.bastard_column {
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
