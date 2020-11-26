@@ -30,6 +30,11 @@ body{
     
 }
 
+.itcc_logo_nice{
+    max-width: 100%;
+    height: auto;
+}
+
 .table-info {
     color: #dedede;
     /* dedede needs a monster to clobber that there kirby */
