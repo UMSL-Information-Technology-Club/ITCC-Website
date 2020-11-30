@@ -17,9 +17,7 @@ console.log("Grabbed the request!")
 request.onload = function () {
     //Begin assigning JSON data here
     var data = JSON.parse(this.response);
-
-    console.log("Parsing...")
-    
+  
     var statusHTML ='';
 
     /* This mess here loops through the specified JSON properties, retrieves data, and formats it into the bootstrap table. */
@@ -33,13 +31,10 @@ request.onload = function () {
         statusHTML += '<td id="statusHtml">' + '<a href= '+ status.html_url + '>' + status.html_url + '</td>'; //this could be done better, but whatever
         statusHTML += '<td>' + status.language + '</td>';
         statusHTML += '</tr>';
+        //WHERE'S THE LAMB SAUCE?!?!?
     });
-
-    console.log("Table created.")
-
     //Display data on page
     $('tbody').html(statusHTML);
-
     console.log("Table deployed. Have a nice day :)")
 
 }

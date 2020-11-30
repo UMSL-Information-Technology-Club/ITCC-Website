@@ -1,11 +1,24 @@
 
 body{
-    background-image: url(assets/softbackground.jpg);
+    /* background-image: url(assets/softbackground.jpg); */ /* this is not a good background */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 
+}
+
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+    padding: 20px;
+}
+.span4 .img-right {
+    float: right;
+    padding: 20px;
 }
 
 #wheresthebeef {
@@ -14,6 +27,7 @@ body{
 
 #bigchungus2 {
     text-align: center;
+    background-color: #dedede;
 }
 
 .img-fluid {
@@ -84,15 +98,16 @@ body{
     height: 40px;
     width: auto;
 }
-.jumbotron {
+#fancy {
     background-image: url(https://ext-marketing.com/wp-content/uploads/2017/11/AdobeStock_85142566.jpg);
     /* ^^^ I feel like we shouldn't hard link this image; it would probably be best to yoink it in case the URL dies... */
     /* -Alex */
     margin-bottom: 0px;
   }
 
-  .jumbotron-div{
+  .jumbotron {
       text-align: center;
+      font-family: 'Questrial', sans-serif;
   }
 
 .container-fluid {
@@ -142,7 +157,7 @@ body{
 
 #umsl-img {
     max-height: auto;
-    max-width: 15%;
+    max-width: 10%;
     /* wrench it in there real good... */
 }
 
@@ -164,7 +179,6 @@ th {
 .column {
     float: left;
     width: 50%; /* Feel free to adjust this if necessary. */
-    padding: 5px;
 }
 
 .bastard_column {
@@ -177,4 +191,12 @@ th {
     content: "";
     clear: both;
     display: table;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-family: 'Questrial', sans-serif;
 }
